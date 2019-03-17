@@ -37,6 +37,7 @@ class Pengumuman : AppCompatActivity() {
 
         override fun onPostExecute(result: String?) {
             super.onPostExecute(result)
+
             pd?.dismiss()
             val objek=JSONObject(result)
             val array=objek.getJSONArray("data")

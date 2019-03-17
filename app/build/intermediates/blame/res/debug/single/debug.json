@@ -1720,6 +1720,10 @@
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ed2cadeeea627241df1e196b5dbb6861\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
+        "merged": "C:\\LAUWBATECHNOINDONESIA\\Android\\Backup\\DesaLauwba1-master (1)\\DesaLauwba1-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sawahh.jpg.flat",
+        "source": "C:\\LAUWBATECHNOINDONESIA\\Android\\Backup\\DesaLauwba1-master (1)\\DesaLauwba1-master\\app\\src\\main\\res\\drawable\\sawahh.jpg"
+    },
+    {
         "merged": "C:\\LAUWBATECHNOINDONESIA\\Android\\Backup\\DesaLauwba1-master (1)\\DesaLauwba1-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\f99806a573b78a23e9965b4d110cf56a\\res\\layout\\notification_action_tombstone.xml"
     },

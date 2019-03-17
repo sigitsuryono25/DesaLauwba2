@@ -4704,9 +4704,10 @@ public final class R {
     public static final int profildesa=0x7f070088;
     public static final int programdesa=0x7f070089;
     public static final int sawah=0x7f07008a;
-    public static final int selector_bottom_nav=0x7f07008b;
-    public static final int tooltip_frame_dark=0x7f07008c;
-    public static final int tooltip_frame_light=0x7f07008d;
+    public static final int sawahh=0x7f07008b;
+    public static final int selector_bottom_nav=0x7f07008c;
+    public static final int tooltip_frame_dark=0x7f07008d;
+    public static final int tooltip_frame_light=0x7f07008e;
   }
   public static final class id {
     public static final int ALT=0x7f080000;

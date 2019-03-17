@@ -24,19 +24,19 @@ class Layanan : AppCompatActivity() {
     }
 
     inner class get_data_layanan : AsyncTask<String, Void, String>(){
-        override fun onPreExecute() {
+        override fun onPreExecute() {   //method from asyntask, ecxecuted in first thread before Async excecution
             super.onPreExecute()
             pd= ProgressDialog.show(this@Layanan,"","Wait",true,true)
         }
 
-        override fun doInBackground(vararg params: String?): String {
+        override fun doInBackground(vararg params: String?): String {    //method Async
 
             val handler= RequestHandler()
             val result=handler.sendGetRequest(Config.url_layanan)
             return result
         }
 
-        override fun onPostExecute(result: String?) {
+        override fun onPostExecute(result: String?) {   //method Async result
             super.onPostExecute(result)
             pd?.dismiss()
             val objek= JSONObject(result)

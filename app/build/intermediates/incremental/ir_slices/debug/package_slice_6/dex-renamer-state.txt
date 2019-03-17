@@ -1,4 +1,4 @@
-#Wed Mar 13 01:30:28 PDT 2019
+#Sun Mar 17 02:34:33 PDT 2019
 base.0=C\:\\LAUWBATECHNOINDONESIA\\Android\\Backup\\DesaLauwba1-master (1)\\DesaLauwba1-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
 path.0=classes.dex
 renamed.0=classes.dex

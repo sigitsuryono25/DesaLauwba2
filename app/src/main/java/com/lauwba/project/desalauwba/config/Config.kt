@@ -2,7 +2,7 @@ package com.lauwba.project.config
 
 object Config {
 
-    private const val Host="http://192.168.43.203/desalauwba.desalauwba/" //yang bakal berganti
+    private const val Host="http://192.168.43.93/desalauwba/" //yang bakal berganti
     const val url_pengumuman= Host+"index.php/Pengumuman/select"
     const val url_gambar= Host+"assets/upload_pengumuman/"
     const val id="id"
