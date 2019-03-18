@@ -14,6 +14,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name="com.lauwba.project.desalauwba.config.PrefsApplication"
         android:allowBackup="true"
         android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"

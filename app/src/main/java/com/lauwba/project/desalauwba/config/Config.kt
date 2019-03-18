@@ -17,4 +17,5 @@ object Config {
     val url_detail_programdesa = Host+"index.php/Programdesa/select_by_get/"
     val url_galeri = Host+"index.php/Galeri/select/"
     const val url_galerifoto= Host+"assets/upload/"
+    val url_login =  Host+"index.php/Login/select/"
 }

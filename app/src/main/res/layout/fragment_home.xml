@@ -4,34 +4,37 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="13dp"
+    android:background="@drawable/sawah"
     >
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/sawah">
+    android:layout_height="match_parent">
 
-    <ImageView
-            android:src="@drawable/sawah"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="0dp"
-            android:layout_width="350dp"
-            android:layout_height="200dp"/>
+   <com.synnapps.carouselview.CarouselView
+           android:id="@+id/imageslider"
+           android:layout_height="210dp"
+           android:layout_width="match_parent"
+           android:layout_marginBottom="3dp"
+           app:fillColor="#FFFFFFFF"
+           app:pageColor="#00000000"
+           app:radius="6dp"
+           app:slideInterval="3000"
+           app:strokeColor="#FF777777"
+           app:strokeWidth="1dp"/>
     <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="60dp"
+        android:layout_below="@+id/imageslider"
         tools:context=".Home">
 
 
         <LinearLayout
             android:id="@+id/linear1"
             android:gravity="center"
-            android:layout_marginTop="150dp"
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -16,12 +16,12 @@
         "source": "C:\\Users\\sigit\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\6cccfa89fbd65b49ad025de12675d6f4\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_checkbox.xml.flat",
-        "source": "C:\\Users\\sigit\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\6cccfa89fbd65b49ad025de12675d6f4\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
         "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\sigit\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\6cccfa89fbd65b49ad025de12675d6f4\\res\\drawable-ldrtl-mdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_checkbox.xml.flat",
+        "source": "C:\\Users\\sigit\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\6cccfa89fbd65b49ad025de12675d6f4\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
@@ -32,12 +32,12 @@
         "source": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\src\\main\\res\\layout\\activity_pengumuman.xml"
     },
     {
-        "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_check_material.xml.flat",
-        "source": "C:\\Users\\sigit\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\6cccfa89fbd65b49ad025de12675d6f4\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
         "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mtrl_chip_checked_black.xml.flat",
         "source": "C:\\Users\\sigit\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\3198eb2fe2a0634f1dc8de3c756c3468\\res\\drawable\\ic_mtrl_chip_checked_black.xml"
+    },
+    {
+        "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_check_material.xml.flat",
+        "source": "C:\\Users\\sigit\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\6cccfa89fbd65b49ad025de12675d6f4\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
         "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\anim_design_snackbar_in.xml.flat",
@@ -48,12 +48,12 @@
         "source": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\datadesa.png"
     },
     {
-        "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_text_color.xml.flat",
-        "source": "C:\\Users\\sigit\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\3198eb2fe2a0634f1dc8de3c756c3468\\res\\color\\mtrl_chip_text_color.xml"
-    },
-    {
         "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\sigit\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\6cccfa89fbd65b49ad025de12675d6f4\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_text_color.xml.flat",
+        "source": "C:\\Users\\sigit\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\3198eb2fe2a0634f1dc8de3c756c3468\\res\\color\\mtrl_chip_text_color.xml"
     },
     {
         "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_potensi.png.flat",
@@ -92,12 +92,12 @@
         "source": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\pengaduan.png"
     },
     {
-        "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\sigit\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\eb00ce0f9b26a6c93e7ec6bf2af04635\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
-    },
-    {
         "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\sigit\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\6cccfa89fbd65b49ad025de12675d6f4\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\sigit\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\eb00ce0f9b26a6c93e7ec6bf2af04635\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_potensi.xml.flat",
@@ -128,12 +128,12 @@
         "source": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_close_icon_tint.xml.flat",
-        "source": "C:\\Users\\sigit\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\3198eb2fe2a0634f1dc8de3c756c3468\\res\\color\\mtrl_chip_close_icon_tint.xml"
-    },
-    {
         "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_in.xml.flat",
         "source": "C:\\Users\\sigit\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\6cccfa89fbd65b49ad025de12675d6f4\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_close_icon_tint.xml.flat",
+        "source": "C:\\Users\\sigit\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\3198eb2fe2a0634f1dc8de3c756c3468\\res\\color\\mtrl_chip_close_icon_tint.xml"
     },
     {
         "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -176,12 +176,12 @@
         "source": "C:\\Users\\sigit\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\6cccfa89fbd65b49ad025de12675d6f4\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
-    },
-    {
         "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\sigit\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\6cccfa89fbd65b49ad025de12675d6f4\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
         "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_itemberita_list.xml.flat",
@@ -386,6 +386,10 @@
     {
         "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23_abc_control_background_material.xml.flat",
         "source": "C:\\Users\\sigit\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\6cccfa89fbd65b49ad025de12675d6f4\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
+        "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
+        "source": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\src\\main\\res\\layout\\toolbar.xml"
     },
     {
         "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13_mtrl_layout_snackbar.xml.flat",
@@ -634,6 +638,10 @@
     {
         "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\sigit\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\6cccfa89fbd65b49ad025de12675d6f4\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_user.xml.flat",
+        "source": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\src\\main\\res\\layout\\fragment_user.xml"
     },
     {
         "merged": "D:\\Tugas_Galau\\Android_Studio_Projects\\DesaLauwba2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_potensi_desa.xml.flat",
