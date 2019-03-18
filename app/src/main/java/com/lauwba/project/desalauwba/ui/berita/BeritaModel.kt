@@ -11,7 +11,7 @@ import java.util.HashMap
  */
 class BeritaModel {
 
-   var id_berita : Int?=null
+   var id_berita : String?=null
     var judul :String?=null
     var kategori :String?=null
     var isi :String?=null

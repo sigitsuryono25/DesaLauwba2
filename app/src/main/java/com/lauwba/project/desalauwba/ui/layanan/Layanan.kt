@@ -44,9 +44,9 @@ class Layanan : AppCompatActivity() {
             for (i in 0 until array.length()){
                 val data=array.getJSONObject(i)
                 val model= LayananModel()
-                model.id=data.getInt("id_layanan")
+                model.id=data.getString("id_layanan")
                 model.namalayanan=data.getString("nama_layanan")
-                model.isi=data.getString("isi")
+                model.isi=data.getString("isi_layanan")
                 model.gambar=data.getString("gambar")
                 list?.add(model)
                 val adapter= list?.let { LayananAdapter(this@Layanan, it) }

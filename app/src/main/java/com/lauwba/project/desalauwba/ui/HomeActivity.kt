@@ -12,6 +12,9 @@ class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.home_activity)
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.container,HomeFragment())
+            .commit()
        bottom.setOnNavigationItemSelectedListener {
            when (it.itemId){
                R.id.home -> {
