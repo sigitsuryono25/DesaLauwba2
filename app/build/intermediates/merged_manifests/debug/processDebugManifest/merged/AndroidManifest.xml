@@ -24,7 +24,13 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.lauwba.project.desalauwba.ui.galeri.GaleriAdapter" >
+        <activity android:name="com.lauwba.project.desalauwba.ui.Privacy.Privacy" >
+        </activity>
+        <activity android:name="com.lauwba.project.desalauwba.ui.datadesa.DataDesa" >
+        </activity>
+        <activity android:name="com.lauwba.project.desalauwba.ui.lembaga.Lembaga" >
+        </activity>
+        <activity android:name="com.lauwba.project.desalauwba.ui.profildesa.ProfilDesa" >
         </activity>
         <activity android:name="com.lauwba.project.desalauwba.ui.HomeActivity" >
         </activity>

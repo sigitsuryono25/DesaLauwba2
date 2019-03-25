@@ -1,13 +1,13 @@
 package com.lauwba.project.desalauwba.ui.programdesa
 import android.app.ProgressDialog
 import android.os.AsyncTask
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
 import com.lauwba.project.config.Config
 import com.lauwba.project.desalauwba.R
 import com.lauwba.project.desalauwba.ui.RequestHandler
-import kotlinx.android.synthetic.main.activity_layanan.*
+import kotlinx.android.synthetic.main.activity_program_desa.*
 import org.json.JSONObject
 
 class ProgramDesa : AppCompatActivity() {
@@ -48,9 +48,14 @@ class ProgramDesa : AppCompatActivity() {
                 model.pekerjaan=data.getString("pekerjaan")
                 model.keterangan=data.getString("keterangan")
                 list?.add(model)
-                val adapter= list?.let { ProgramdesaAdapter(this@ProgramDesa,it) }
-                rv.layoutManager= LinearLayoutManager(this@ProgramDesa)
-                rv.adapter=adapter
+                try {
+                    val adapter= list?.let { ProgramdesaAdapter(this@ProgramDesa,it) }
+                    rv.layoutManager= LinearLayoutManager(this@ProgramDesa)
+                    rv.adapter=adapter
+
+                }catch(e:Exception){
+                    e.printStackTrace()
+                }
             }
         }
 

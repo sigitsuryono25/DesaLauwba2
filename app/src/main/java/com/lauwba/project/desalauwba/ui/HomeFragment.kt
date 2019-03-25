@@ -26,8 +26,8 @@ import org.json.JSONObject
 
 class HomeFragment : Fragment() {
 
-    private var pd: ProgressDialog?=null
-    private var list:MutableList<BeritaModel>?=null
+    private var pd: ProgressDialog? = null
+    private var list: MutableList<String>? = null
 
     companion object {
         val TAG: String = HomeFragment::class.java.simpleName
@@ -44,38 +44,55 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         layanan.setOnClickListener { startActivity(Intent(activity, Layanan::class.java)) }
         berita.setOnClickListener { startActivity(Intent(activity, Berita::class.java)) }
-        pengumuman.setOnClickListener { startActivity(Intent(activity,
-            Pengumuman::class.java)) }
+        pengumuman.setOnClickListener {
+            startActivity(
+                Intent(
+                    activity,
+                    Pengumuman::class.java
+                )
+            )
+        }
         galeri.setOnClickListener { startActivity(Intent(activity, Galeri::class.java)) }
-        potensi.setOnClickListener { startActivity(Intent(activity,
-            PotensiDesa::class.java)) }
-        program.setOnClickListener { startActivity(Intent(activity,
-            ProgramDesa::class.java)) }
-        list= mutableListOf()
+        potensi.setOnClickListener {
+            startActivity(
+                Intent(
+                    activity,
+                    PotensiDesa::class.java
+                )
+            )
+        }
+        program.setOnClickListener {
+            startActivity(
+                Intent(
+                    activity,
+                    ProgramDesa::class.java
+                )
+            )
+        }
+        list = mutableListOf()
         get_data_imageslider().execute()
     }
 
-    inner class get_data_imageslider : AsyncTask<String, Void, String>(){
+    inner class get_data_imageslider : AsyncTask<String, Void, String>() {
         override fun onPreExecute() {
             super.onPreExecute()
-            pd= ProgressDialog.show(activity,"","Wait",true,true)
+            pd = ProgressDialog.show(activity, "", "Wait", true, true)
         }
 
         override fun doInBackground(vararg params: String?): String {
 
-            val handler= RequestHandler()
-            val result=handler.sendGetRequest(Config.url_berita)
+            val handler = RequestHandler()
+            val result = handler.sendGetRequest(Config.url_berita)
             return result
         }
 
         override fun onPostExecute(result: String?) {
             super.onPostExecute(result)
             pd?.dismiss()
-            val objek= JSONObject(result)
-            if (objek.getInt("status")==1){
+            val objek = JSONObject(result)
+            if (objek.getInt("status") == 1) {
                 Toast.makeText(activity, "Tidak ada data!", Toast.LENGTH_SHORT).show()
-            }
-            else {
+            } else {
                 val array = objek.getJSONArray("data")
                 for (i in 0 until array.length()) {
                     val data = array.getJSONObject(i)
@@ -84,29 +101,29 @@ class HomeFragment : Fragment() {
                     model.judul = data.getString("judul")
                     model.kategori = data.getString("kategori")
                     model.isi = data.getString("isi")
-                    model.gambar =Config.url_galerifoto + data.getString("gambar")
+                    model.gambar = Config.url_galerifoto + data.getString("gambar")
                     model.tanggal = data.getString("tanggal")
-                    list?.add(model)
+                    list?.add(model.gambar ?: "")
 
                 }
-                try{
+                try {
                     setToImageSlider(list)
-                }catch(e:Exception){
+                } catch (e: Exception) {
                     e.printStackTrace()
                 }
 
             }
         }
 
-        private fun setToImageSlider(list: MutableList<BeritaModel>?) {
-                for(i in 0  until list?.size!!){
-                    val item=list.get(i)
-                    Log.d("gambar",item.gambar)
-                    imageslider.setImageListener { position, imageView ->
-                        activity?.let { Glide.with(it).load(item.gambar).into(imageView) }
-                    }
-                }
-            imageslider.pageCount = list.size
+        private fun setToImageSlider(list: MutableList<String>?) {
+//                for(i in 0  until list?.size!!){
+//                    val item=list.get(i)
+            imageslider.setImageListener { position, imageView ->
+                Log.d("gambar", list?.get(position).toString())
+                activity?.let { Glide.with(it).load(list?.get(position)).into(imageView) }
+            }
+//                }
+            imageslider.pageCount = list?.size ?: 0
         }
 
     }

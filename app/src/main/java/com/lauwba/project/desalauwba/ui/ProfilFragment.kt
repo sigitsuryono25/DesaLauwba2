@@ -6,6 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.lauwba.project.desalauwba.R
+import com.pixplicity.easyprefs.library.Prefs
+import kotlinx.android.synthetic.main.detail_profil.*
 
 
 class ProfilFragment : Fragment() {
@@ -17,8 +19,30 @@ class ProfilFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         activity?.title = getString(R.string.title_profil)
-        val view = inflater.inflate(R.layout.fragment_user, container, false)
-        return view
+        return inflater.inflate(R.layout.detail_profil, container, false)
     }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+//        profildesa.setOnClickListener { startActivity(Intent(activity, ProfilDesa::class.java)) }
+//        lembaga.setOnClickListener { startActivity(Intent(activity, Lembaga::class.java)) }
+//        datadesa.setOnClickListener { startActivity(Intent(activity, DataDesa::class.java)) }
+
+//        profil.setOnClickListener {
+//
+//            Toast.makeText(activity, "Profile", Toast.LENGTH_SHORT).show()
+//        }
+
+        email.text="Email anda : " + Prefs.getString("email", "")
+        logout.setOnClickListener { Prefs.clear()
+            activity?.supportFragmentManager?.beginTransaction()
+                ?.replace(R.id.container,Login())
+                ?.commit()
+        }
+
+    }
+
+
 
 }

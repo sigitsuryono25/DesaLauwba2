@@ -3,7 +3,7 @@ package com.lauwba.project.config
 object Config {
 
 //    private const val Host="http://192.168.43.93/desalauwba/" //yang bakal berganti
-    private const val Host="http://192.168.122.2/CodeIgniter/KELOMPOK/desalauwba/" //yang bakal berganti
+    private const val Host="http://192.168.169.2/CodeIgniter/KELOMPOK/desalauwba/" //yang bakal berganti
     const val url_pengumuman= Host+"index.php/Pengumuman/select"
     const val url_gambar= Host+"assets/upload_pengumuman/"
     const val id="id"
@@ -18,4 +18,5 @@ object Config {
     val url_galeri = Host+"index.php/Galeri/select/"
     const val url_galerifoto= Host+"assets/upload/"
     val url_login =  Host+"index.php/Login/select/"
+    val url_lembaga = Host+"index.php/Lembaga/select/"
 }

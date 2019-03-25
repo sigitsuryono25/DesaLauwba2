@@ -1139,10 +1139,6 @@ id bottom_navigation
 id btnread
 id buttonPanel
 id cancel_action
-id carddata
-id cardlembaga
-id cardprivacy
-id cardprofil
 id center
 id center_horizontal
 id center_vertical
@@ -1159,6 +1155,7 @@ id contentPanel
 id coordinator
 id custom
 id customPanel
+id datadesa
 id decor_content_parent
 id default_activity_button
 id depth
@@ -1213,12 +1210,12 @@ id isi
 id italic
 id item_touch_helper_previous_elevation
 id judul
-id l1
 id labeled
 id lainnya
 id largeLabel
 id layanan
 id left
+id lembaga
 id line1
 id line3
 id linear1
@@ -1230,6 +1227,8 @@ id list_item
 id login
 id login_form
 id login_progress
+id logo
+id logout
 id masked
 id media_actions
 id message
@@ -1257,6 +1256,7 @@ id pengumuman
 id percent
 id pin
 id potensi
+id privacy
 id profil
 id program
 id progress_circular
@@ -1267,6 +1267,7 @@ id right
 id right_icon
 id right_side
 id rv
+id satu
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -1338,6 +1339,7 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id txtkarangtaruna
 id txtkartukeluarga
 id uniform
 id unlabeled
@@ -1399,16 +1401,21 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_berita
+layout activity_data_desa
 layout activity_detail_pengumuman
 layout activity_galeri
 layout activity_galeri_adapter
 layout activity_layanan
 layout activity_layanan_adapter
+layout activity_lembaga
+layout activity_lembaga_adater
 layout activity_main
 layout activity_pengumuman
 layout activity_potensi_desa
 layout activity_potensidesa_adapter
 layout activity_potensidesa_model
+layout activity_privacy
+layout activity_profil_desa
 layout activity_program_desa
 layout activity_programdesa_adapter
 layout activity_splash
@@ -1426,6 +1433,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout detail_profil
 layout fragment_dashboard
 layout fragment_home
 layout fragment_itemberita
